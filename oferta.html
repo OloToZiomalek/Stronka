@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        #tabela1 {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        #tedet {
+            height: 400px;
+            background-color: #d3d3d3;
+        }
+
+        .link0 {
+            color: black; 
+            text-decoration: none; 
+            display: block;
+            width: 100%;
+            height: 100%; 
+        }
+
+        .button {
+            background-color: #04AA6D; 
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button1 {
+            background-color: white; 
+            color: black; 
+            border: 4px solid #04AA6D;
+            width: 16%;
+        }
+
+        .button1:hover {
+            background-color: #04AA6D;
+            color: white;
+            
+        }   
+
+        .button2 {
+            background-color: white; 
+            color: black; 
+            border: 4px solid #008CBA;
+            width: 16%;
+        }
+
+        .button2:hover {
+            background-color: #008CBA;
+            color: white;
+        }
+
+        .button3 {
+            background-color: white; 
+            color: black; 
+            border: 4px solid #f44336;
+            width: 16%;
+        }
+
+        .button3:hover {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .button4 {
+            background-color: white;
+            color: black;
+            border: 4px solid #fff7005d;
+            width: 16%;
+        }
+
+        .button4:hover {background-color: #f9f102; margin: 0 auto;}
+
+        .section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 10px;
+            border: 2px solid #ccc;
+            background-color: #f9f9f9;
+        }
+
+        .section-text {
+            flex: 1;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .section-image {
+            flex: 1;
+            text-align: right;
+            padding: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            background-color: #f2f2f2;
+            padding: 10px;
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table id="tabela1">
+        <tr>
+            <td id="tedet" style="height: 400px; background-color: #d3d3d3;"><img src="Baner.jpg"></td>
+        </tr>
+    </table>
+    <button class="button button1" onclick = "window.open('./index.html','_self')">Home</button>
+    <button class="button button2">Oferta</button>
+    <button class="button button3" onclick = "window.open('./galeria.html','_self')">Galeria</button>
+    <button class="button button4" onclick = "window.open('./kontakt.html','_self')">Kontakt</button>
+
+        <div class="section">
+            <div class="section-text">
+                <h2>Lionel Messi</h2>
+                <p>Lionel Messi, Leo Messi, właśc. Lionel Andrés Messi Cuccittini – argentyński piłkarz, występujący na pozycji napastnika lub ofensywnego pomocnika w amerykańskim klubie Inter Miami oraz w reprezentacji Argentyny, której jest kapitanem. Złoty medalista Mistrzostw Świata 2022. On wygrał Mistrzostwa Świata, a Cristiano Ronaldo nie.</p>
+            </div>
+            <div class="section-image">
+                <img src="./messi.jpg" alt="Opis zdjęcia">
+            </div>
+        </div>
+    
+        <div class="section">
+            <div class="section-image">
+                <img src="./lewy.jpg" alt="Opis zdjęcia">
+            </div>
+            <div class="section-text">
+                <h2>Robert Lewandowski</h2>
+                <p>Robert Lewandowski – polski piłkarz, występujący na pozycji środkowego napastnika w hiszpańskim klubie FC Barcelona oraz w reprezentacji Polski, której jest kapitanem. Uważany za jednego z najlepszych piłkarzy swojego pokolenia na świecie i jednego z najlepszych środkowych napastników w historii piłki nożnej.</p>
+            </div>
+        </div>
+    
+        <footer>
+            Oliwier Skrzypek
+        </footer>
+</body>
+</html>

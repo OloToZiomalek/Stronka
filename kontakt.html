@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        #tabela1 {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        #tedet {
+            height: 400px;
+            background-color: #d3d3d3;
+        }
+
+        .link0 {
+            color: black;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .button {
+            background-color: #04AA6D;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button1 {
+            background-color: white; 
+            color: black; 
+            border: 4px solid #04AA6D;
+            width: 16%;
+        }
+
+        .button1:hover {
+            background-color: #04AA6D;
+            color: white;
+            
+        }   
+
+        .button2 {
+            background-color: white; 
+            color: black; 
+            border: 4px solid #008CBA;
+            width: 16%;
+        }
+
+        .button2:hover {
+            background-color: #008CBA;
+            color: white;
+        }
+
+        .button3 {
+            background-color: white; 
+            color: black; 
+            border: 4px solid #f44336;
+            width: 16%;
+        }
+
+        .button3:hover {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .button4 {
+            background-color: white;
+            color: black;
+            border: 4px solid #fff7005d;
+            width: 16%;
+        }
+
+        .button4:hover {background-color: #f9f102; margin: 0 auto;}
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        .profile-info {
+            width: 48%;
+            text-align: left;
+        }
+
+        .profile-image {
+            width: 48%;
+            text-align: right;
+        }
+
+        footer {
+            width: 1000px;
+            margin: 20px auto;
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="tabela1">
+        <tr>
+            <td id="tedet" style="height: 400px; background-color: #d3d3d3;"><img src="Baner.jpg"></td>
+        </tr>
+    </table>
+    <button class="button button1" onclick = "window.open('./index.html','_self')">Home</button>
+    <button class="button button2" onclick = "window.open('./oferta.html','_self')">Oferta</button>
+    <button class="button button3" onclick = "window.open('./galeria.html','_self')">Galeria</button>
+    <button class="button button4">Kontakt</button>
+    <div class="container">
+        <div class="profile-info">
+            <h2>Dane osobowe</h2>
+            <p>Imię: Oliwier</p>
+            <p>Nazwisko: Skrzypek</p>
+            <p>Nr w dzienniku: 22</p>
+            <p>E-mail: o.skrzypek@zset.leszno.pl</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2464.5835106387854!2d16.56272617652435!3d51.85030167189338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47059820222c6b5f%3A0x7a95ff5af2307cfe!2sZesp%C3%B3%C5%82%20Szk%C3%B3%C5%82%20Elektroniczno-Telekomunikacyjnych!5e0!3m2!1spl!2spl!4v1704270595160!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="profile-image">
+            <img src="mojezdjecie.jpg" alt="moje zdjecie">
+        </div>
+    </div>
+
+    <footer>Oliwier Skrzypek</footer>
+</body>
+
+</html>
