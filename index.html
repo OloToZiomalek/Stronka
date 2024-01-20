@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goofy AHH Phone</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+        }
+
+        #video-container {
+            position: relative;
+            width: 70%;
+            padding-bottom: 56.25%; /* proporcje 16:9 dla responsywności */
+        }
+
+        iframe, audio {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        #text-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="video-container">
+        <iframe
+            src="https://youtu.be/lMjSX_mqkdA?si=w9vs8So0DScohine"
+            frameborder="0"
+            allowfullscreen
+        ></iframe>
+
+        <!-- Dodany element audio -->
+        <audio controls>
+            <source src="X2Download.app - Hymn Związku Radzieckiego [ZSRR] (Bass Boosted - Dźwięk HD) - Napisy PL (320 kbps).mp3" type="audio/mp3">
+            Twoja przeglądarka nie obsługuje elementu audio.
+        </audio>
+    </div>
+
+    <div id="text-container">
+        <h1>Wiem-Rozumiem.pl</h1>
+        <p>Pozdro wszystkim pozdrawiamy pana od matematyki</p>
+    </div>
+</body>
+</html>
