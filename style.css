@@ -1,0 +1,26 @@
+header {
+    text-align: center;
+    background-color: darkgray;
+    padding-top: 10px;
+    height: 150px;
+}
+
+div.naglowek {
+    text-align: center;
+}
+
+#video {
+    text-align: center;
+    width: 70%;
+    padding-bottom: 56.25%; /* proporcje 16:9 dla responsywności */
+}
+
+div.container {
+    text-align: justify;
+}
+
+#audio {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
